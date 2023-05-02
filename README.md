@@ -10,7 +10,7 @@
 
 ```
 ensure yuppz_drugsale
-ensure yuppz_drugsale
+ensure yuppz_minigamecard
 ```
 
 # Legal
