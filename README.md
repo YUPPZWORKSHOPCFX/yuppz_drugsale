@@ -1,4 +1,4 @@
-# yuppz_drugsale ขายยาสุ่มnpc esx/qbcore
+# yuppz_drugsale ขายยาสุ่มnpc ESX/QBCORE
 
 ## Download & Installation
 ## Requirements
