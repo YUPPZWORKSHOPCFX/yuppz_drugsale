@@ -22,6 +22,17 @@ Config.Blips = {
     Text = '<font face="font4thai">ขายยา</font>' --ชื่อblip
 }
 
+STOPSELL = function ()
+	exports["?"]:ShowHelpNotification("~w~Press ~g~[X]~w~ ยกเลิกขายยา") -- @=>TextUI
+end
+
+STARTSELL = function ()
+	exports["?"]:ShowHelpNotification("~w~Press ~g~[X]~w~ ยกเลิกขายยา") -- @=>TextUI
+end
+
+
+
+
 Config["Discord"] = {
     Webhook = '',--webhook
     Enable = false, -- @=> เปิดใช้ Discord Log แยก
