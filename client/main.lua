@@ -107,7 +107,7 @@ function StartSell(itemname, price)
 			local letSleep = true
             if StartSlleDrug then
                 letSleep = false
-                exports["yuppz_textui"]:ShowHelpNotification("~w~Press ~g~[X]~w~ ยกเลิกขายยา")
+                STOPSELL()
            
                 DrawTextScreen('', {
                     x = 0.5,
@@ -124,7 +124,7 @@ function StartSell(itemname, price)
                 if GetDistanceBetweenCoords(GetEntityCoords(GetPlayerPed(-1)), Config.NPCSpawnPoint[RandonNumber].Pos, true) < 1.0 then
                     ESX.ShowHelpNotification("")
                     letSleep = false
-                    exports["yuppz_textui"]:ShowHelpNotification("กด ~INPUT_CONTEXT~ ~r~ขายยา")
+                    STARTSELL()
                 
                     if IsControlPressed(0, 38) and not Selling and not IsPress and not IsPedInAnyVehicle(GetPlayerPed(-1),true) then
                         IsPress = true
