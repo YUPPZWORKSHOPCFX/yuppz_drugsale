@@ -27,7 +27,7 @@ STOPSELL = function ()
 end
 
 STARTSELL = function ()
-	exports["?"]:ShowHelpNotification("~w~Press ~g~[X]~w~ ยกเลิกขายยา") -- @=>TextUI
+		exports["?"]:ShowHelpNotification("กด ~INPUT_CONTEXT~ ~r~ขายยา") -- @=>TextUI
 end
 
 
